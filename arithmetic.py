@@ -18,6 +18,10 @@ def multiply(num1, num2):
 
 def divide(num1, num2):
     """Divide the first input by the second and return the result."""
+    if num2 == 0:
+            print("Cannot divide by 0")
+        else:
+            return num1/num2
 
 
 def square(num1):
